@@ -1,0 +1,110 @@
+@charset "UTF-8";
+body{
+  background-color: rgb(154, 170, 144);
+
+}
+
+.block {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+img {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+height: 850px;
+width: 880px;
+
+}
+
+
+.ttl{
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  font-size: 7em;
+  font-family: serif;
+  color: transparent;
+  text-stroke: 2px black;
+-webkit-text-stroke: 2px black;
+letter-spacing: -0.1em;
+}
+
+.song{
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-weight: bold;
+  font-size: 4em;
+  margin-left: auto;
+  margin-right: 150px;
+}
+
+
+
+.block-one{
+  z-index: -1000;
+}
+.block-one-two{
+  z-index: -999;
+}
+.block-two{
+  z-index: 999;
+}
+.block-three{
+  z-index:9;
+}
+.block-four{
+  z-index: 12;
+}
+.block-five{
+  z-index: 10;
+}
+.block-six{
+  z-index: 11;
+}
+.block-senen{
+  z-index:4 ;
+}
+.block-eight{
+  z-index:5 ;
+}
+
+.block-night{
+  z-index:6 ;
+}
+.block-ten{
+  z-index: 4;
+}
+.block-eleven{
+  z-index:8 ;
+}
+
+
+@media screen and (max-width:767px) {
+img{
+  height: 350px;
+width: 380px;
+}
+
+.song{
+  font-size: 2em;
+  margin: 0 auto;
+}
+
+
+.ttl{
+  font-size: 3em;
+  font-family: serif;
+  color: transparent;
+  text-stroke: 2px black;
+-webkit-text-stroke: 2px black;
+letter-spacing: -0.1em;
+}
+
+}
